@@ -1,2 +1,2 @@
 ### How to run with Gradle:
-######./gradlew clean test
+###### ./gradlew clean test
