@@ -21,5 +21,4 @@ public class DeleteUser {
         assertEquals(statusCode, 204);
     }
 
-
 }
