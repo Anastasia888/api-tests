@@ -23,6 +23,6 @@ public class CreateUser {
         Response response = request.body(user)
                 .post("");
         assertEquals(response.getStatusCode(), 201);
-       assertEquals(user.getName().toLowerCase(), name);
+        assertEquals(user.getName().toLowerCase(), name);
     }
 }
